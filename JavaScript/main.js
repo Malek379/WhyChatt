@@ -13,8 +13,8 @@ function kayit() {
   // Değişkenler
   if (typeof document === 'undefined') {
     const uname = document.getElementById("username").value;
-    const upass = document.getElementById("username").value;
-    const umail = document.getElementById("username").value;
+    const upass = document.getElementById("password").value;
+    const umail = document.getElementById("email").value;
     
     const userSchema = new mongoose.Schema({
       UserName: {
